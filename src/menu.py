@@ -1,8 +1,6 @@
 def show_menu():
     while True:
         print()
-        print("Welcome to Rock-Paper-Scissors!")
-        print()
         print("Menu:")
         print("1. Play Round")
         print("2. View Stats")
@@ -19,7 +17,6 @@ def show_menu():
             print("Showing stats...")
         elif choice == "3":
             print()
-            print("Goodbye!")
             break
         else:
             print()
@@ -28,7 +25,6 @@ def show_menu():
         print()
 
 
-show_menu()
 
 
 
