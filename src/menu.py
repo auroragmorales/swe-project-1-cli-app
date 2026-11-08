@@ -1,3 +1,5 @@
+from game_data import show_stats
+
 def show_menu():
     while True:
         print()
@@ -13,8 +15,7 @@ def show_menu():
             print()
             print("Starting game...")
         elif choice == "2":
-            print()
-            print("Showing stats...")
+            show_stats()
         elif choice == "3":
             print()
             break
